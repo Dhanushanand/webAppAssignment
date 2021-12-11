@@ -9,7 +9,7 @@ function Navbar() {
     return (
         <nav>
             <div className='navbar-center'>
-                <h1>PQSI</h1>
+                <h1>Dhanush's Shop</h1>
                 <div className='cart-bag' 
                     onClick={_ => toggleOpenCloseCart('OPEN_CART')}>
                     <img src={Bag} alt='cart bag' />
